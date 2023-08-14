@@ -1,0 +1,164 @@
+body
+{
+  background-color: #ffffff;
+}
+#h1::before
+{
+    content: "Good ";
+    color: white;
+}
+#h1::after
+{
+    content: " Go";
+    color:white;
+}
+
+.quotes
+{
+    margin-top: 50px;
+    border-radius: 5px;
+    border: 2px solid;
+}
+.head
+{
+    margin-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.commitmentbody
+{
+    padding-bottom: 25px;
+}
+.howitworks
+{
+    background-color: #563d7c;
+    color: white;
+}
+.head2
+{
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+#head2
+{
+    margin-top: 20px;
+}
+.head2body
+{
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+    padding-bottom: 25px;
+}
+.head3
+{
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.head3body
+{
+    padding-bottom: 25px;
+}
+.head3img
+{
+    width: 600px;
+    padding-bottom: 25px;
+}
+#imgtext
+{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+.contactussec
+{
+    background-color: #563d7c;
+    color: white;
+}
+.contactus
+{
+    margin-top: 30px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.contactusbody
+{
+    padding-bottom: 25px;
+}
+#contactlink
+{
+    text-decoration: none;
+    color: #ffe484;
+}
+.aboutussec
+{
+    background-color: #563d7c;
+    color: white;
+}
+.aboutushead
+{
+    margin-top: 30px; 
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+.aboutusbody
+{
+    padding-bottom: 40px;
+}
+.joinushead
+{
+    margin-top: 30px; 
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+#joinusbody
+{
+    padding-bottom: 25px;
+}
+.joinusbody
+{
+    padding-bottom: 40px;
+}
+.b1
+{
+    background-color: white;
+    border: #563d7c solid;
+    color: #563d7c;
+    border-radius: 10px;
+    height: 45px;
+}
+.b1:hover
+{
+    background-color: #563d7c;
+    border: #ffffff solid;
+    color: #ffe484;
+}
+.footer
+{
+    margin-top: 30px; 
+}
+.end
+{
+    background-color: #563d7c;
+    color: white;
+}
+.footer
+{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}  
+.location
+{
+    padding-bottom: 50px;
+}
+.links
+{
+    padding-top: 60px;
+}
+.nav-link
+{
+    z-index: 1;
+    overflow: hidden;
+text-decoration: none;
+color: #ffe484;
+}
